@@ -3,6 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const CubejsServerCore = require('@cubejs-backend/server-core');
 
+
 const app = express();
 app.use(require('cors')());
 app.use(bodyParser.json({ limit: '50mb' }));
